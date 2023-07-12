@@ -1,0 +1,128 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    background-color: #F2F2F2; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente */
+    margin: 0; /* Sin margen exterior */
+    padding: 0; /* Sin relleno exterior */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #012E40; /* Color de fondo del encabezado */
+    color: white; /* Color de texto del encabezado */
+    padding: 20px; /* Espaciado interno del encabezado */
+  }
+  
+  /* Estilos para el título h1 */
+  h1 {
+    margin: 0; /* Sin margen exterior */
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    text-align: center; /* Alineación centrada */
+    margin-top: 50px; /* Margen superior */
+  }
+  
+  /* Estilos para las imágenes dentro del contenedor */
+  .container img {
+    width: 700px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen proporcionado automáticamente */
+    border-radius: 20%; /* Borde redondeado */
+  }
+  
+  /* Estilos para el contenedor de botones */
+  .button-container {
+    text-align: center; /* Alineación centrada */
+    margin-top: 30px; /* Margen superior */
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    display: inline-block; /* Mostrar en línea */
+    background-color: #274B59; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    margin: 10px; /* Margen exterior */
+    text-decoration: none; /* Sin decoración de texto */
+    border-radius: 5px; /* Borde redondeado */
+  }
+  
+  .btn:hover {
+    opacity: 0.8; /* Opacidad reducida al pasar el cursor sobre el botón */
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark-mode {
+    background-color: #222222; /* Color de fondo oscuro */
+    color: #FFFFFF; /* Color de texto claro */
+  }
+  
+  .dark-mode header {
+    background-color: #111111; /* Color de fondo oscuro para el encabezado */
+  }
+  
+  /* Estilos para el botón de alternar modo oscuro */
+  button#dark-mode-toggle {
+    background-color: #012E40; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+  }
+  
+  button#dark-mode-toggle:hover {
+    opacity: 0.8; /* Opacidad reducida al pasar el cursor sobre el botón */
+  }
+  
+  /* Estilos para la sección de colegio */
+  .colegio {
+    text-align: center; /* Alineación centrada */
+    margin-top: 50px; /* Margen superior */
+  }
+  
+  .colegio img {
+    width: 400px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen proporcionado automáticamente */
+    border-radius: 20%; /* Borde redondeado */
+  }
+  
+  /* Estilos para la sección de universidad */
+  .universidad {
+    text-align: center; /* Alineación centrada */
+    margin-top: 50px; /* Margen superior */
+  }
+  
+  .universidad img {
+    width: 400px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen proporcionado automáticamente */
+    border-radius: 20%; /* Borde redondeado */
+  }
+  
+  /* Estilos para la sección de doramas */
+  .doramas {
+    text-align: center; /* Alineación centrada */
+    margin-top: 50px; /* Margen superior */
+  }
+  
+  .doramas img {
+    width: 700px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen proporcionado automáticamente */
+    border-radius: 10%; /* Borde redondeado */
+  }
+  
+  /* Estilos para la sección de películas */
+  .peliculas {
+    text-align: center; /* Alineación centrada */
+    margin-top: 50px; /* Margen superior */
+  }
+  
+  .peliculas img {
+    width: 700px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen proporcionado automáticamente */
+    border-radius: 10%; /* Borde redondeado */
+  }
+  
